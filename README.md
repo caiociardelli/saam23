@@ -1,7 +1,7 @@
 # SphModel
 -----------------------
 
-These tools were modified from `SphModel`, which is a subpackage of `SphGLLTools`, a toolbox for visualization, processing, sharing, and spherical harmonics analysis of tomographic models defined on GLL meshes.
+These tools were adapted from `SphModel`, which is a subpackage of `SphGLLTools`, a toolbox for visualization, processing, sharing, and spherical harmonics analysis of tomographic models defined on GLL meshes.
 
 Author: Caio Ciardelli
 

@@ -120,8 +120,8 @@ output="$1"_"$2"_DS
 np=$(head -n1 $filename | cut -f7 -d' ')
 nt=$(head -n1 $filename | cut -f6 -d' ')
 
-dp=$(echo "360 / ($np - 1)" | bc -l)
-dt=$(echo "180 / ($nt - 1)" | bc -l)
+dp=$(echo "122 / ($np - 1)" | bc -l)
+dt=$(echo " 92 / ($nt - 1)" | bc -l)
 
 info=$(./bin/getinfo $filename)
 
@@ -138,7 +138,7 @@ if [ "$#" -eq 4 ]; then
   cbmax=$4
 fi
 
-gmt xyz2grd $filename -G$grdname -Rg -I$dp/$dt -: -h3
+gmt xyz2grd $filename -G$grdname -R-110/12/-67/25 -I$dp/$dt -: -h3
 gmt makecpt -Cextra/tomo_improved.cpt -T$cbmin/$cbmax > tomo.cpt
 
 gawk -v min=$vmin -v max=$vmax 'BEGIN {printf "Min = %E Max = %E\n", min, max}'
