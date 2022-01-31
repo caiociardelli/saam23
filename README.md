@@ -7,14 +7,14 @@ Author: Caio Ciardelli
 
 If you use SphModel, please, cite the following paper:
 
-Ciardelli, C., Bozdağ, E., Peter, D., and van der Lee, S., 2021. SphGLLTools: A toolbox for visualization of large seismic model files based on 3D spectral-element meshes. Computer & Geosciences, v. 159, 105007, doi: https://doi.org/10.1016/j.cageo.2021.105007.
+Ciardelli, C., Bozdağ, E., Peter, D., and Van der Lee, S., 2021. SphGLLTools: A toolbox for visualization of large seismic model files based on 3D spectral-element meshes. Computer & Geosciences, v. 159, 105007, doi: https://doi.org/10.1016/j.cageo.2021.105007.
 
 # SAAM23
 -----------------------
 
 Please, also make sure to cite the authors of SAAM23:
 
-Ciardelli, C., Assumpção, M., Bozdağ, E., & van der Lee, S., 2022. Adjoint Waveform Tomography of South America. Journal of Geophysical Research: Solid Earth, v. 127, e2021JB022575, doi: https://doi.org/10.1029/2021JB022575
+Ciardelli, C., Assumpção, M., Bozdağ, E., & Van der Lee, S., 2022. Adjoint Waveform Tomography of South America. Journal of Geophysical Research: Solid Earth, v. 127, e2021JB022575, doi: https://doi.org/10.1029/2021JB022575
 
 ## Installation
 -----------------------
