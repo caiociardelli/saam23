@@ -204,7 +204,7 @@ static void helpMenu (void)
                     "\n                   RADIAL_RESOLUTION"
 
                     "\n\n EXAMPLE"
-                    "\n    ./bin/bk2dd 0 1800 -20.0 -74.0 0.0 -38.0 0.1 2.0"
+                    "\n    ./bin/bk2dd dvsv 0 1800 -20.0 -74.0 0.0 -38.0 0.1 2.0"
 
                     "\n\n COMMAND LINE ARGUMENTS"
                     "\n    PARAMETER              - model parameter to be expanded (vph, rho, eta, vsv, etc.)"
