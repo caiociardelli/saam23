@@ -167,6 +167,6 @@ binDirectory:
 	@ mkdir -p $(BIN)
 
 clean:
-	$(RM) $(OBJ)/ $(BIN)/ *.dat *.cpt *.xyp *.history *.grd *.pdf
+	$(RM) $(OBJ)/ $(BIN)/ *.dat *.cpt *.xyp *.history *.grd *.pdf extra/slab_*.xy
 
 .PHONY: all clean
