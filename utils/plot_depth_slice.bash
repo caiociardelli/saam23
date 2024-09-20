@@ -150,7 +150,8 @@ gmt begin $output pdf
   gmt set FONT_LABEL 16p,100
   gmt set MAP_FRAME_PEN 0.5p
 
-  gmt grdimage $grdname -JN10c -R-88/-10/-60/16 -Bxa30fg30 -Bya30fg30 -BWeSn -Ctomo.cpt
+#  gmt grdimage $grdname -JN10c -R-88/-10/-60/16 -Bxa30fg30 -Bya30fg30 -BWeSn -Ctomo.cpt
+  gmt grdimage $grdname -JQ10c -R-88/-10/-60/16 -Bxa30fg30 -Bya30fg30 -BWeSn -Ctomo.cpt
   gmt coast -W0.2,50 -A30000
 
   gmt plot extra/plate_boundaries_clean.gmt -: -W0.7p
